@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html lang="en">
+ <head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" 
+content="width=device-width, 
+\initial-scale=1.0"> 
+<title>Your Portfolio</title> 
+<style> 
+ body{ 
+font-family:Arial, sans-serif; 
+margin: 0; 
+padding: 0; 
+background-color: #f4f4f4; 
+} 
+header { 
+background-color: #020213; 
+color: #fff; 
+text-align: center; 
+padding: 2rem 0; 
+} 
+nav ul { 
+list-style: none; 
+text-align: center; 
+} 
+nav li { 
+display: inline; 
+margin: 0 20px; 
+} 
+nav a { 
+text-decoration: none; 
+color: #777; 
+font-weight: bold; 
+cursor: pointer; 
+} 
+section{
+padding: 2rem; 
+}
+</style> </head> </body> <header> <img src="divya.jpg"width="200"height="200">
+<h1>V DIVYADHARSHINI </h1>
+<p>Web Developer | Designer</p> 
+</header>
+<nav>
+<ul> 
+<li>
+<a href="#about">About</a></li> 
+<li>
+<a href="#skills">skills</
+a></li>
+<li>
+<a href="certification">certification</a><li>
+</li>
+<l1>
+<a href="project">project</a></l1>
+<li>  
+</l1><a href="contact">contact
+</a></li>
+</ul> 
+</nav> 
+<section id="about"> 
+<h2>About Me</h2> 
+<p> I'm  V DIVYADHARSHINI a passionate student, web developer, and designer on a creative journey to bring digital ideas to life. </p> 
+</section> 
+<section id="skills">
+<h2>skills</h2>
+<p>*CSS</p>
+</p>*HTML</p>
+<p>*JAVASCRIPT</p>
+</section>
+<section id=""certification">
+<h2>CERTIFICATION</h2>
+<p>DIGITAL GRAPHIC ANIMATION</p>
+<P>HYPERTEXT MARKUP LANGUAGE</P>
+<P>CYBERSECURITY</P>
+</section> 
+<section id="project">
+ <h2>project</h2>
+ <p><a href="project1.jpg">project1</p>
+ <p><a href="project2.jpg">project2</p>  
+</section>
+<section id="contact"> <h2>Contact Me</h2> <p>
+EMAIL ID:divya886678@gmail.com</p> 
+<p>ADDRESS:Avinashi tirupur</p>
+<p>CONTACT:907777543</p>
+<script> // Add your JavaScript code here document.querySelectorAll('nav a').forEach(anchor => 
+{ 
+anchor.addEventListener('click', function(e) {
+e.preventDefault(); 
+const targetId = this.getAttribute('href').substring(1); const targetElement = 
+document.getElementById(targetId); 
+if (targetElement)
+{ 
+window.scrollTo({ 
+top: 
+targetElement.offsetTop, 
+behavior: 'smooth' 
+}); 
+}
+ }); 
+ });
+</script> 
+</body> 
+</html>
